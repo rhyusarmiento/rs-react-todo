@@ -1,9 +1,14 @@
 function AddItem() {
     return (
       <div className="todo-additem">
-        <h1>ADD ITEM</h1>
+        <div className="input-data">
+          <input type="text" placeholder="Whats up?" />
+        </div>
+        <div className="input-send">
+          <button type="button" className="sendBtn">Add</button>
+        </div>
       </div>
     );
 }
-  
+
 export default AddItem;

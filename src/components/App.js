@@ -9,8 +9,17 @@ function App() {
         <div className='todo-additem-wrapper'>
           <AddItem />
         </div>
-        <div className='todo-items'>
-          <Item />
+        <div className='items-display'>
+          <div className='todo-items'>
+            <div className=''>
+              <h3>todo</h3>
+              <Item />
+            </div>
+            <div className='completed-items'>
+              <h3>completed</h3>
+              <Item />
+            </div>
+          </div>
         </div>
       </div>
     </div>
