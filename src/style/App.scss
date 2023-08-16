@@ -18,6 +18,11 @@ body {
   .items-display {
     .todo-items {
       border-bottom: 2px solid #126253;
+      padding-bottom: 20px;
+
+      h5 {
+        margin-bottom: 5px;
+      }
     }
   }
 }

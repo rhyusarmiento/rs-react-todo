@@ -1,0 +1,28 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+
+    p {
+        padding-right: 20px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .button-wrapper {
+        margin-left: auto;
+
+        button {
+            background-color: #13C4A3;
+            border: none;
+            color: white;
+            padding: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .completedBtn {
+            margin-right: 10px;
+        }
+    }
+}

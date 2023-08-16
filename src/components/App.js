@@ -1,3 +1,4 @@
+import React from 'react';
 import AddItem from './AddItem';
 import Item from './Item'
 
@@ -15,7 +16,6 @@ function App() {
           </div>
           <div className='completed-items'>
             <h5>COMPLETED</h5>
-            <Item />
           </div>
         </div>
       </div>
