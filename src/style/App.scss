@@ -14,4 +14,10 @@ body {
   padding: 20px;
   box-shadow: 0px 0px 10px #7A827D;
   border-radius: 18px;
+
+  .items-display {
+    .todo-items {
+      border-bottom: 2px solid #126253;
+    }
+  }
 }
