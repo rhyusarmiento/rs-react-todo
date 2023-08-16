@@ -1,4 +1,3 @@
-import './../style/App.css';
 import AddItem from './AddItem';
 import Item from './Item'
 

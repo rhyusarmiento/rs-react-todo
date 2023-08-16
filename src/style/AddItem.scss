@@ -1,0 +1,28 @@
+.todo-additem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #126253;
+
+    input {
+        padding: 5px 250px 5px 10px;
+        margin-right: 30px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    button {
+        background-color: #13C4A3;
+        border: none;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
+
