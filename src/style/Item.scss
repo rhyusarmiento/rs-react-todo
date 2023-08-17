@@ -26,3 +26,26 @@
         }
     }
 }
+
+.todo-item-completed {
+    display: flex;
+    align-items: center;
+
+    p {
+        padding-right: 20px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        text-decoration-line: line-through;
+    }
+    
+    button {
+        margin-left: auto;
+        background-color: #13C4A3;
+        border: none;
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
