@@ -18,11 +18,11 @@ function App() {
   }
 
   const handleDeleteItem = (index, test) => {
-    if (test == false) {
+    if (test === false) {
       let currentList = [...allTodos];
       currentList.splice(index, 1);
       setTodos(currentList);
-    } else if (test == true) {
+    } else if (test === true) {
       let unRemovedList = [...completedTodo];
       unRemovedList.splice(index, 1);
       setCompletedTodo(unRemovedList)
@@ -31,7 +31,7 @@ function App() {
 
   const handleCompleted = (index) => {
     let completedList = allTodos.splice(index, 1);
-    setCompletedTodo(completedList);
+    setCompletedTodo(completedTodo.concat(completedList));
   }
 
   return (
