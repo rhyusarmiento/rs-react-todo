@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+### TODO REACT APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built this app to test and remember react post lds mision. 
+
+## Whats next?
+
+build backend with apis and database 
 
 ## Available Scripts
 
